@@ -9,9 +9,10 @@ This project is an example to demonstrate the [issue reported here](https://gith
 3. Clone the repo
 4. cd Dotnet6Sqlite
 5. Execute `dotnet run --runtime osx-x64`
-6. You'll see the app startup, and two log entries indicating that the SQLite DB has been created.
-7. Execute `dotnet run --runtime osx-arm64`
-8. You'll see the app throws a type initializer exception at startup:
+6. You'll see the app startup, and two log entries indicating that the SQLite DB has been created. The ```TestDB.db``` file will be created in the current directory.
+7. Next, delete the TestDB.db file.
+8. Execute `dotnet run --runtime osx-arm64`
+9. You'll see the app throws a type initializer exception at startup:
 
 ```
 Unhandled exception. System.TypeInitializationException: The type initializer for 'Microsoft.Data.Sqlite.SqliteConnection' threw an exception.
