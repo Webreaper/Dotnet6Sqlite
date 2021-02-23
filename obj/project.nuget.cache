@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mEH7YcON7tPMrBqHQnnC15YyKqLH/JOXxspNwD+jk4hnuEMmvorG5C0xY2s8Ny7ntQ7D32WWtcUXLEZwU7I7kw==",
+  "dgSpecHash": "CY44R5fXkXC9/RxhTRHHXhLK0mxwSsNje6v4ebB7/ImPme3xM6gxq591+iDp5nPsFZbK1ySQ+ZX07fITiPV4sw==",
   "success": true,
   "projectFilePath": "/Users/markotway/LocalCloud/Development/Dotnet6Sqlite/Dotnet6Sqlite/Dotnet6Sqlite.csproj",
   "expectedPackageFiles": [
@@ -29,9 +29,8 @@
     "/Users/markotway/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/markotway/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/markotway/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/markotway/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/6.0.0-preview.1.21102.12/microsoft.netcore.app.runtime.osx-arm64.6.0.0-preview.1.21102.12.nupkg.sha512",
-    "/Users/markotway/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.0-preview.1.21102.12/microsoft.netcore.app.host.osx-arm64.6.0.0-preview.1.21102.12.nupkg.sha512",
-    "/Users/markotway/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/6.0.0-preview.1.21103.6/microsoft.aspnetcore.app.runtime.osx-arm64.6.0.0-preview.1.21103.6.nupkg.sha512"
+    "/Users/markotway/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/6.0.0-preview.1.21102.12/microsoft.netcore.app.runtime.osx-x64.6.0.0-preview.1.21102.12.nupkg.sha512",
+    "/Users/markotway/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/6.0.0-preview.1.21103.6/microsoft.aspnetcore.app.runtime.osx-x64.6.0.0-preview.1.21103.6.nupkg.sha512"
   ],
   "logs": []
 }

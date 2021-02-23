@@ -344,7 +344,7 @@
         }
       }
     },
-    "net6.0/osx-arm64": {
+    "net6.0/osx-x64": {
       "Microsoft.Data.Sqlite.Core/5.0.3": {
         "type": "package",
         "dependencies": {
@@ -582,6 +582,9 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        },
+        "native": {
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {}
         }
       },
       "SQLitePCLRaw.provider.dynamic_cdecl/2.0.5-pre20210119130047": {
@@ -1258,15 +1261,11 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.osx-arm64",
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
             "version": "[6.0.0-preview.1.21103.6, 6.0.0-preview.1.21103.6]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[6.0.0-preview.1.21102.12, 6.0.0-preview.1.21102.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
             "version": "[6.0.0-preview.1.21102.12, 6.0.0-preview.1.21102.12]"
           }
         ],
@@ -1282,7 +1281,7 @@
       }
     },
     "runtimes": {
-      "osx-arm64": {
+      "osx-x64": {
         "#import": []
       }
     }
